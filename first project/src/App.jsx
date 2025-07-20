@@ -1,11 +1,9 @@
 import React from 'react'
-import Headers from './components/Header.jsx'
-import Routers from './Routes/Routes.jsx'
+import ScreenRoutes from './Routes/ScreenRoutes'
+
 const App = () => {
   return (
-    <>
-      <Routers />
-    </>
+    <ScreenRoutes />
   )
 }
 

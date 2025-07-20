@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
-:root{
+
+:root {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
