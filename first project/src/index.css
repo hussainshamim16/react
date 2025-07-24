@@ -1,28 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
 :root {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+  --Color1: #F2F2F2;
+  --Color2: #EAE4D5;
+  --Color3: #B6B09F;
+  --Color4: #000000;
 }
 
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h5,
-h4,
-h6 {
-  font-family:  Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-transform : uppercase;
-  font-size: 3rem;
-}
 
