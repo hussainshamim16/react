@@ -4,7 +4,7 @@ import aboutImg from '../assets/soft.png'; // Replace with your actual image
 
 const About = () => {
   return (
-    <section className="bg-color2 py-20 px-6 md:px-16 text-color4">
+    <section className="bg-color2 py-20 px-6 md:px-16 text-color4" id='About'>
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left: Text Content */}

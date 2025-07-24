@@ -26,7 +26,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="bg-color1 py-20 px-6 md:px-16 text-color4">
+    <section className="bg-color1 py-20 px-6 md:px-16 text-color4" id='Features'>
       <div className="max-w-7xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">Features that make <span className="text-color3">Sopra</span> powerful</h2>
         <p className="mt-4 text-lg">Everything you need to supercharge your productivity and workflow.</p>

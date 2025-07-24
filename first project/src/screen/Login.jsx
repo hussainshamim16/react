@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -40,8 +41,11 @@ const Login = () => {
           </div>
 
           {/* Forgot Password */}
-          <div className="text-right mb-4">
-            <a href="#" className="text-sm text-emerald-600 hover:underline">Forgot password?</a>
+          <div className="text-right mb-4 flex justify-between">
+            <Link to="/signup" className="text-sm text-emerald-600 hover:underline lowercase">You Have No Account ?</Link>
+
+            <Link to="/fb" className="text-sm text-emerald-600 hover:underline">Forgot password?</Link>
+
           </div>
 
           {/* Submit Button */}

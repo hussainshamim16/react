@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const ForgotPassword = () => {
   return (
@@ -8,12 +9,12 @@ const ForgotPassword = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="w-full max-w-md bg-white shadow-xl rounded-xl p-8"
+        className="w-full max-w-md bg-emerald-950 shadow-xl rounded-xl p-8"
       >
         <h2 className="text-2xl font-bold text-center text-emerald-600 mb-4">
           Forgot Password
         </h2>
-        <p className="text-center text-gray-600 mb-6 text-sm">
+        <p className="text-center text-gray-400 mb-6 text-sm">
           Enter your email or username and we’ll send you a link to reset your password.
         </p>
 
@@ -41,9 +42,8 @@ const ForgotPassword = () => {
 
         {/* Back to login */}
         <div className="mt-6 text-center">
-          <a href="/login" className="text-sm text-emerald-600 hover:underline">
-            Back to Login
-          </a>
+          <Link to="/login" className="text-sm text-emerald-600 hover:underline">
+            Back to Login </Link>
         </div>
       </motion.div>
     </div>

@@ -39,7 +39,7 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <section className="bg-color1 py-20 px-6 md:px-16 text-color4">
+    <section className="bg-color1 py-20 px-6 md:px-16 text-color4" id='Pricing'>
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">Pricing Plans</h2>
         <p className="mt-4 text-lg">Choose the plan that fits your needs. All prices are in PKR.</p>

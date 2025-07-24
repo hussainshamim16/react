@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
@@ -8,17 +9,17 @@ const Signup = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="w-full max-w-2xl bg-white shadow-xl rounded-xl p-8"
+        className="w-full max-w-2xl bg-emerald-950 shadow-xl rounded-xl p-8"
       >
         <h2 className="text-3xl font-bold text-center text-emerald-600 mb-6">Create Your Account</h2>
 
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-6" >
           {/* Full Name */}
           <div className="form-control">
             <label className="label">
               <span className="label-text">Full Name</span>
             </label>
-            <input type="text" placeholder="e.g. Areeba Khan" className="input input-bordered" required />
+            <input type="text" placeholder="e.g. Hussain Shamim" className="input input-bordered" required />
           </div>
 
           {/* Username */}
@@ -26,7 +27,7 @@ const Signup = () => {
             <label className="label">
               <span className="label-text">Username</span>
             </label>
-            <input type="text" placeholder="e.g. areebakhan_01" className="input input-bordered" required />
+            <input type="text" placeholder="e.g. hussainshamim16" className="input input-bordered" required />
           </div>
 
           {/* Email */}
@@ -34,7 +35,7 @@ const Signup = () => {
             <label className="label">
               <span className="label-text">Email Address</span>
             </label>
-            <input type="email" placeholder="e.g. areeba@email.com" className="input input-bordered" required />
+            <input type="email" placeholder="e.g. hussainshamimdev@gmail.com" className="input input-bordered" required />
           </div>
 
           {/* Password */}
@@ -61,6 +62,28 @@ const Signup = () => {
             <input type="date" className="input input-bordered" required />
           </div>
 
+          {/* Gender */}
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Gender</span>
+            </label> <br />
+            <input type="radio" name="same" id="male" />
+            <label htmlFor="male" className='px-2'>Male</label>
+            <input type="radio" name="same" id="Female" />
+            <label htmlFor="Female" className='ps-2'>Female</label>
+          </div>
+
+          {/* Gender */}
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Role</span>
+            </label> <br />
+            <select name="" id="" className="select select-bordered w-full">
+              <option value="Admin">Admin</option>
+              <option value="User">User</option>
+            </select>
+          </div>
+
           {/* Profile Photo */}
           <div className="form-control md:col-span-2">
             <label className="label">
@@ -79,9 +102,10 @@ const Signup = () => {
 
         {/* Already have an account? */}
         <div className="mt-6 text-center">
-          <a href="/login" className="text-sm text-emerald-600 hover:underline">
+          <Link to="/login" className="text-sm text-emerald-600 hover:underline">
             Already have an account? Login
-          </a>
+          </Link>
+          
         </div>
       </motion.div>
     </div>
