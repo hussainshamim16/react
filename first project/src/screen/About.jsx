@@ -21,7 +21,7 @@ const About = () => {
           <p className="text-lg mb-4">
             Sopra is more than just software — it's your digital partner in efficiency. Designed with professionals in mind, Sopra offers a blend of modern design and intelligent features to make your workflow smoother, faster, and smarter.
           </p>
-          <p className="text-md text-emerald-700">
+          <p className="text-md text-emerald-200">
             Whether you’re managing projects, collaborating with teams, or analyzing data, Sopra adapts to your needs with simplicity and speed. Our mission is to empower individuals and teams to achieve more with less effort.
           </p>
         </motion.div>

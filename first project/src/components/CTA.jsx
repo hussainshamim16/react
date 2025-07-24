@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const CTA = () => {
   return (
-    <section className="bg-color3 py-16 px-6 md:px-20 text-white text-center">
+    <section className="bg-emerald-900 py-16 px-6 md:px-20 text-white text-center">
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -17,7 +17,7 @@ const CTA = () => {
         <p className="text-lg mb-6">
           Start using <span className="font-semibold">Sopra</span> today and experience the difference.
         </p>
-        <button className="btn bg-white text-color4 font-semibold hover:bg-color4 hover:text-white transition duration-300">
+        <button className="btn bg-emerald-500 text-black font-semibold hover:bg-emerald-300 hover:text-black transition duration-300">
           Get Started
         </button>
       </motion.div>

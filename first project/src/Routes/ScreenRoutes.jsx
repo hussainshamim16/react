@@ -7,6 +7,9 @@ import NoPage from '../screen/NoPage'
 import LandingPage from '../screen/LandingPage'
 import Footer from '../components/Footer'
 import Header from '../components/Header'                   
+import Login from '../screen/Login'
+import ForgotPassword from '../screen/ForgatePassword'
+import Signup from '../screen/Signup'
 
 const ScreenRoutes = () => {
     return (
@@ -17,6 +20,9 @@ const ScreenRoutes = () => {
                 <Route path='*' element={<NoPage />} />
                 <Route path='/props' element={<PropDriling />} />
                 <Route path='/form' element={<Form />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/fb' element={<ForgotPassword />} />
+                <Route path='/signup' element={<Signup />} />
             </Routes>
             <Footer />
         </BrowserRouter>

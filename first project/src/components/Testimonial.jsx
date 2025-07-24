@@ -39,7 +39,7 @@ const Testimonials = () => {
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((user, index) => (
-            console.log(user)
+         
             < motion.div
               key = { index }
               initial = {{ opacity: 0, y: 40 }}
@@ -50,7 +50,7 @@ const Testimonials = () => {
             >
           <div className="flex items-center mb-4">
             <img
-              src={user.img}
+              src={userImage}
               alt={user.name}
               className="w-14 h-14 rounded-full border-2 border-color3 mr-4"
             />

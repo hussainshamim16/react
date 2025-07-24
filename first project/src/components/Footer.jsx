@@ -5,29 +5,29 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-emerald-950 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Code2 className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">DevCraft</span>
+              <Code2 className="h-8 w-8 text-emerald-400" />
+              <span className="text-xl font-bold">Sopra</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
               Crafting exceptional software solutions that drive business growth and innovation. 
               Your trusted partner in digital transformation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Github className="h-6 w-6" />
               </a>
             </div>
@@ -57,7 +57,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">
-              © {currentYear} DevCraft. All rights reserved.
+              © {currentYear} Sopra. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a>
